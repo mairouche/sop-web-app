@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AlertModule } from 'ngx-bootstrap';
 
 import { AppComponent } from './app.component';
 import { PortalComponent } from './portal/portal.component';

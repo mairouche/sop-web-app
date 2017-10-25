@@ -1,0 +1,8 @@
+.portal-header-wrapper {
+  background-color:#f2f2f2;
+  -webkit-background-clip: border-box;
+  -webkit-background-origin: padding-box;
+  -webkit-background-size: auto;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 2px 0px;
+  height:40px;
+}
