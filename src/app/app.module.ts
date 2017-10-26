@@ -5,17 +5,25 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { PortalComponent } from './portal/portal.component';
 import { PortalHeaderComponent } from './portal-header/portal-header.component';
+import { PortalSliderComponent } from './portal-slider/portal-slider.component';
+import { SigninComponent } from './signin/signin.component';
+import { SubscribeComponent } from './subscribe/subscribe.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'portal', pathMatch: 'full' },
-  { path: 'portal', component: PortalComponent }
+  { path: 'portal', component: PortalComponent },
+  { path: 'signin', component: SigninComponent },
+  { path: 'subscribe', component: SubscribeComponent }
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
     PortalComponent,
-    PortalHeaderComponent
+    PortalHeaderComponent,
+    PortalSliderComponent,
+    SigninComponent,
+    SubscribeComponent
   ],
   imports: [
     BrowserModule,
