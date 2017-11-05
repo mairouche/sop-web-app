@@ -8,6 +8,8 @@ import { PortalHeaderComponent } from './portal-header/portal-header.component';
 import { PortalSliderComponent } from './portal-slider/portal-slider.component';
 import { SigninComponent } from './signin/signin.component';
 import { SubscribeComponent } from './subscribe/subscribe.component';
+import { PortalNewsComponent } from './portal-news/portal-news.component';
+import { PortalBlogsComponent } from './portal-blogs/portal-blogs.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'portal', pathMatch: 'full' },
@@ -23,7 +25,9 @@ const routes: Routes = [
     PortalHeaderComponent,
     PortalSliderComponent,
     SigninComponent,
-    SubscribeComponent
+    SubscribeComponent,
+    PortalNewsComponent,
+    PortalBlogsComponent
   ],
   imports: [
     BrowserModule,

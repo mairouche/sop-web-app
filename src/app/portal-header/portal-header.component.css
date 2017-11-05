@@ -1,17 +1,46 @@
 .portal-header-wrapper {
-  background-image: linear-gradient(#f9f9f9, #f2f2f2);
+  background-color : #0f121b;
   -webkit-background-clip: border-box;
   -webkit-background-origin: padding-box;
   -webkit-background-size: auto;
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 2px 0px;
   z-index:10;
-  height:40px;
-  padding-top:5px;
-  font-size:15px;
-  color:#404040;
+  height:65px;
+  font-size:14px;
+  font-weight: bold;
+  color:#ffffff;
 }
+
+.portal-header-menu, .portal-header-user {
+  padding-top:20px;
+}
+
 .portal-header-wrapper a {
-  font-size:15px;
-  color:#404040;
+  font-size:14px;
+  color:#ffffff;
+  padding-right:15px;
+  padding-left: 15px;
+  height:65px;
+  text-align: center;
+}
+
+.portal-header-menu i {
+  font-size:20px;
+}
+
+.portal-header-sponsors {
+  width: 100%;
+  background-color: rgba(3, 3, 4, 0.5);
+  height: 65px;
+  position: absolute;
+  z-index: 7;
+  margin-top:20px;
+  text-align: center;
+  padding-top:10px;
+}
+
+.portal-header-sponsors a {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 

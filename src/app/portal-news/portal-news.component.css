@@ -1,0 +1,14 @@
+.portal-news-bloc{
+  border-radius: 5px 5px 5px 5px;
+  height:300px;
+  background-color:white;
+  margin-top:20px;
+}
+
+.portal-news-title {
+  font-size:16px;
+  font-family: "Open Sans", sans-serif;
+  border-bottom: 4px solid #0083c2;
+  padding-bottom: 8px;
+  color:#FFFFFF;
+}
