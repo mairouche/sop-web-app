@@ -1,0 +1,8 @@
+.portal-menu-wrapper {
+  background-image: linear-gradient(#f0a31b, #e34328);
+  height:40px;
+  padding-top:5px;
+  color:#FFFFFF;
+  font-size:15px;
+  font-family: 'Open Sans', sans-serif;
+}
